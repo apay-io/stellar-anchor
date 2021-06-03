@@ -52,7 +52,7 @@
     "pg": "8.6.0",
     "rxjs": "7.0.1",
     "stellar-sdk": "8.2.0",
-    "typeorm": "0.2.32"
+    "typeorm": "0.2.34"
   },
   "devDependencies": {
     "@nestjs/cli": "7.6.0",
