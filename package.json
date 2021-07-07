@@ -31,7 +31,7 @@
     "test:int": "jest --config ./test/jest-int.json --coverage"
   },
   "dependencies": {
-    "@nestjs/bull": "0.3.1",
+    "@nestjs/bull": "0.4.0",
     "@nestjs/common": "7.6.15",
     "@nestjs/config": "0.6.3",
     "@nestjs/core": "7.6.15",
