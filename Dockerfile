@@ -1,4 +1,4 @@
-FROM node:16.1-alpine As development
+FROM node:16.5-alpine As development
 
 WORKDIR /usr/src/app
 
@@ -13,7 +13,7 @@ RUN npm run build
 CMD ["node", "dist/main"]
 
 
-FROM node:16.1-alpine as production
+FROM node:16.5-alpine as production
 
 WORKDIR /usr/src/app
 
